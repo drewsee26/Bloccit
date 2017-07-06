@@ -11,9 +11,9 @@ The source code is available on github: https://github.com/drewsee26/Bloccit
 * Posts can be upvoted and downvoted.
 
 ## Setup and Configuration
-*Ruby version 2.3.0 - Rails version 4.2.5*
+**Ruby version 2.3.0 - Rails version 4.2.5**
 
-*Gems used*
+**Gems used**
 ```
 group :production do
   gem 'pg'
@@ -48,11 +48,11 @@ gem 'bcrypt'
 gem 'figaro', '1.0'
 ```
 
-*Setup:*
+**Setup:**
 * Environmental variables were secured using Figaro and are stored in config/application.yml (ignored by github)
 * The config/application.example.yml illustrates the formatting for environmental variables.
 
-*To run Bloccit locally:*
+**To run Bloccit locally:**
 * Clone the repository
 * Run bundle install
 * Create and migrate the SQLite database with rake db:create and rake db:migrate
