@@ -1,8 +1,8 @@
 # Bloccit 
 
 ### Bloccit is a Reddit replica.
-The app is deployed on heroku: https://stark-stream-15461.herokuapp.com/
-The source code is available on github: https://github.com/drewsee26/Bloccit
+* The app is deployed on heroku: https://stark-stream-15461.herokuapp.com/
+* The source code is available on github: https://github.com/drewsee26/Bloccit
 
 ## Features
 * Admin users can create topics.
