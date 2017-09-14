@@ -22,7 +22,7 @@ blocmetrics.report = function(eventName){
     
     var request = new XMLHttpRequest();
     
-    request.open("POST", "https://blocmetrics-drewsee26.c9users.io/api/events", true);
+    request.open("POST", "https://drews-blocmetrics.herokuapp.com/api/events", true);
     
     request.setRequestHeader('Content-Type', 'application/json');
     
@@ -36,4 +36,6 @@ $(document).ready(function() {
     $('a').click(function() {
         blocmetrics.report("Click");
     });
+    
+    
 });
